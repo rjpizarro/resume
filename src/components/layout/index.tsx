@@ -1,14 +1,14 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import "./layout.css"
+import Header from "../header"
+import "./styles.css"
 
 interface LayoutProps {
   children: React.ReactChildren
 }
 
-const Layout = ({ children }: LayoutProps) => {
+const Index = ({ children }: LayoutProps) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -40,4 +40,4 @@ const Layout = ({ children }: LayoutProps) => {
   )
 }
 
-export default Layout
+export default Index
