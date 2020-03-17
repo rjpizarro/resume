@@ -1,11 +1,18 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import { Col, Row } from "react-grid-system"
+import Grid from "@material-ui/core/Grid"
+import Grow from '@material-ui/core/Grow';
+import makeStyles from "@material-ui/core/styles/makeStyles"
 
-import "./styles.scss"
+const useStyles = makeStyles({
+  skillColumn: {
+    marginBottom: 20
+  }
+})
 
 const SkillsSetGrid = () => {
+  const classes = useStyles()
   const data = useStaticQuery(graphql`
       query {
           skillImageSet: allFile(filter: {relativeDirectory: {eq: "tech-logos"}}) {
@@ -22,19 +29,21 @@ const SkillsSetGrid = () => {
   `)
 
   return (
-    <Row className="skills-set-grid">
-      {data.skillImageSet.nodes.map(img => (
-        <Col xs={6} md={4} lg={3} className="skills-set-grid--column">
-          <Img
-            fluid={img.childImageSharp.fluid}
-            style={{
-              maxWidth: img.childImageSharp.fluid.presentationWidth,
-              margin: "0 auto",
-            }}
-          />
-        </Col>
+    <Grid container>
+      {data.skillImageSet.nodes.map((img, idx )=> (
+        <Grid key={img.id} item xs={6} md={4} lg={3} classes={{root: classes.skillColumn}}>
+          <Grow in timeout={1000 + 200 * idx}>
+            <Img
+              fluid={img.childImageSharp.fluid}
+              style={{
+                maxWidth: img.childImageSharp.fluid.presentationWidth,
+                margin: "0 auto",
+              }}
+            />
+          </Grow>
+        </Grid>
       ))}
-    </Row>
+    </Grid>
   )
 }
 
