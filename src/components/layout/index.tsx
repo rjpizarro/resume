@@ -1,8 +1,10 @@
 import React from "react"
+import ThemeProvider from "@material-ui/core/styles/MuiThemeProvider"
 import { useStaticQuery, graphql } from "gatsby"
 import "typeface-roboto"
 
 import Header from "../header"
+import theme from "../../theme"
 import "./styles.css"
 
 interface LayoutProps {
@@ -21,7 +23,7 @@ const Index = ({ children }: LayoutProps) => {
   `)
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -62,7 +64,7 @@ const Index = ({ children }: LayoutProps) => {
         >
         </path>
       </svg>
-    </>
+    </ThemeProvider>
   )
 }
 

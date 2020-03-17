@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
+import Typography from "@material-ui/core/Typography"
 
 interface HeaderProps {
   siteTitle: string
@@ -19,7 +20,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0, textAlign: 'center' }}>
+      <Typography variant="h1" style={{ margin: 0, textAlign: 'center' }}>
         <Link
           to="/"
           style={{
@@ -29,7 +30,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
         >
           {siteTitle}
         </Link>
-      </h1>
+      </Typography>
     </div>
   </header>
 )
