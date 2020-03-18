@@ -12,6 +12,7 @@ import SEO from "../components/seo"
 import SkillsSetGrid from "../components/skills-set-grid"
 import Timeline from "../components/timeline"
 import Section from "../components/section"
+import AboutMe from "../components/about-me"
 
 const useStyles = makeStyles({
   description: {
@@ -53,7 +54,7 @@ const IndexPage = ({ data }) => {
         <Timeline jobs={data.allJob.nodes} />
       </Section>
       <Section divider title="More about me">
-        <Timeline jobs={data.allJob.nodes} />
+        <AboutMe />
       </Section>
     </Layout>
   )
