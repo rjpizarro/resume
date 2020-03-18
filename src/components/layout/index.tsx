@@ -19,7 +19,7 @@ interface LayoutProps {
 // use inline styles for now
 const styles = {
   container: {
-    position: "relative"
+    position: "relative" as "relative"
   },
   contentWrapper: {
     margin: `0 auto`,
@@ -27,19 +27,20 @@ const styles = {
     paddingBottom: 200
   },
   footer: {
-    position: "absolute",
+    position: "absolute" as "absolute",
     bottom: 0,
     left: 0,
     right: 0,
-    textAlign: "center"
+    textAlign: "center" as "center"
   },
-  githubButton: {
-    position: "absolute",
+  githubLink: {
+    color: "#444",
+    position: "absolute" as "absolute",
     bottom: 0,
-    right: 0,
+    right: 3,
   },
   footerBackground: {
-    position: "absolute",
+    position: "absolute" as "absolute",
     bottom: 0,
     zIndex: -10
   }
@@ -68,12 +69,12 @@ const Index = ({ children }: LayoutProps) => {
               {` `}
               <a href="https://www.gatsbyjs.org">Gatsby</a>
             </Typography>
-            <IconButton
-              style={styles.githubButton}
-              onClick={() => window.open("https://github.com/rjpizarro/resume")}
+            <a
+              style={styles.githubLink}
+              href="https://github.com/rjpizarro/resume"
             >
               <FaGithub size={35} />
-            </IconButton>
+            </a>
           </footer>
         </div>
         <svg
