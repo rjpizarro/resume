@@ -2,8 +2,10 @@ import React from "react"
 import ThemeProvider from "@material-ui/core/styles/MuiThemeProvider"
 import Typography from "@material-ui/core/Typography"
 import { useStaticQuery, graphql } from "gatsby"
-import "typeface-roboto"
+import { FaGithub } from 'react-icons/fa'
+import IconButton from "@material-ui/core/IconButton"
 import "typeface-inter"
+import "typeface-roboto"
 
 import Header from "../header"
 import theme from "../../theme"
@@ -30,6 +32,11 @@ const styles = {
     left: 0,
     right: 0,
     textAlign: "center"
+  },
+  githubButton: {
+    position: "absolute",
+    bottom: 0,
+    right: 0,
   },
   footerBackground: {
     position: "absolute",
@@ -61,6 +68,12 @@ const Index = ({ children }: LayoutProps) => {
               {` `}
               <a href="https://www.gatsbyjs.org">Gatsby</a>
             </Typography>
+            <IconButton
+              style={styles.githubButton}
+              onClick={() => window.open("https://github.com/rjpizarro/resume")}
+            >
+              <FaGithub size={35} />
+            </IconButton>
           </footer>
         </div>
         <svg
