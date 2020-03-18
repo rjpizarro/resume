@@ -8,13 +8,14 @@ import "typeface-inter"
 import Header from "../header"
 import theme from "../../theme"
 import "./styles.css"
-import { makeStyles } from "@material-ui/core/styles"
 
 interface LayoutProps {
   children: React.ReactChildren
 }
 
-const useStyles = makeStyles({
+// makeStyles create an issue on styles when build
+// use inline styles for now
+const styles = {
   container: {
     position: "relative"
   },
@@ -35,10 +36,9 @@ const useStyles = makeStyles({
     bottom: 0,
     zIndex: -10
   }
-})
+}
 
 const Index = ({ children }: LayoutProps) => {
-  const classes = useStyles()
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -50,12 +50,12 @@ const Index = ({ children }: LayoutProps) => {
   `)
 
   return (
-    <div className={classes.container}>
-      <ThemeProvider theme={theme}>
+    <ThemeProvider theme={theme}>
+      <div style={styles.container}>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className={classes.contentWrapper}>
+        <div style={styles.contentWrapper}>
           <main>{children}</main>
-          <footer className={classes.footer}>
+          <footer style={styles.footer}>
             <Typography variant="caption">
               © {new Date().getFullYear()}, Built with
               {` `}
@@ -66,7 +66,7 @@ const Index = ({ children }: LayoutProps) => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
-          className={classes.footerBackground}
+          style={styles.footerBackground}
         >
           <path
             fill="#00cba9"
@@ -93,8 +93,8 @@ const Index = ({ children }: LayoutProps) => {
           >
           </path>
         </svg>
-      </ThemeProvider>
-    </div>
+      </div>
+    </ThemeProvider>
   )
 }
 

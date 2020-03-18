@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/resume",
   siteMetadata: {
     title: `Rodrigo Pizarro - Résumé`,
     description: ``,

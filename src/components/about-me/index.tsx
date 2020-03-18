@@ -87,7 +87,7 @@ const AboutMe = () => {
         </Grid>
         <Grid item xs={12} className={classes.linkedinContactContainer}>
           <Typography>
-            If you want to know more, doesn't hesitate to contact me:
+            If you want to know more, don't hesitate to contact me:
           </Typography>
           <IconButton onClick={() => window.open("https://www.linkedin.com/in/rjpizarro/")}>
             <FaLinkedin color="#2178B5" size={40} />

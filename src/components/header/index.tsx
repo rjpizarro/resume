@@ -1,23 +1,22 @@
 import { Link } from "gatsby"
 import React from "react"
 import Typography from "@material-ui/core/Typography"
-import makeStyles from "@material-ui/core/styles/makeStyles"
 
 interface HeaderProps {
   siteTitle: string
 }
 
-
-const useStyles = makeStyles({
+// makeStyles create an issue on styles when build
+// use inline styles for now
+const styles ={
   siteTitle: {
     fontSize: 45,
     margin: 0,
     textAlign: "center",
   },
-})
+}
 
 const Header = ({ siteTitle }: HeaderProps) => {
-  const classes = useStyles()
 
   return (
     <header
@@ -33,7 +32,7 @@ const Header = ({ siteTitle }: HeaderProps) => {
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <Typography variant="h1" className={classes.siteTitle}>
+        <Typography variant="h1" style={styles.siteTitle}>
           <Link
             to="/"
             style={{
