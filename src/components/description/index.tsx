@@ -23,7 +23,7 @@ const Description = () => {
           Early on I found that I was able to edit the page's HTML and CSS. Very soon, like an owl, I was up all night learning and editing every line of code from my site.
         </Typography>
         <Typography className={classes.description}>
-          The years went by and I have the chance to learn and work with other tools:
+          The years went by and I had the chance to learn and work with other tools:
         </Typography>
       </Grid>
       <Grid item lg={4}>
