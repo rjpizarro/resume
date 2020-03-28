@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimelineLabel render normally with required props 1`] = `
+<div>
+  <span
+    className="MuiTypography-root MuiTypography-caption"
+    data-testid="dates"
+  >
+    2014 Jan
+     - 
+    2015 Jan
+  </span>
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle1"
+  >
+    Test company
+  </h6>
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle2"
+  >
+    Test job title
+  </h6>
+</div>
+`;

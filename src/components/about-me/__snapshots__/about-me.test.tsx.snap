@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About Me renders normally 1`] = `
+<div
+  className="MuiGrid-root makeStyles-container-1 MuiGrid-container MuiGrid-justify-xs-center"
+>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-8"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <div
+        className="makeStyles-container-107"
+      >
+        <div
+          className="makeStyles-iconWrapper-108"
+        >
+          <div
+            className=" gatsby-image-wrapper"
+            style={
+              Object {
+                "display": "inline-block",
+                "height": 28,
+                "overflow": "hidden",
+                "position": "relative",
+                "width": 45,
+              }
+            }
+          >
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAAAv0lEQVQoz2MoWXOfbMRAkebi1fdxo3tghFMBQ8W6B1hR+dr7lRseVqwHMXCpYXj07gcO9PPG7Xs3bt99iFPBD4b/mODfPyDx9fmNO8sC7i7z//L0KlwQDTD8+fsPDf3+8weo8MnF3Zf7RS71CTw+vxPIBQpiqsRm83+QJf9+fnp9csGrEwuADLggus2LTrzChl4uPvlm8ekPIHTyDZCLVRlD5rK72NHSO1lL72RCEA41DGVrH+BG98EIpwKKUhgAk80m5V4vbosAAAAASUVORK5CYII="
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
+                }
+              }
+            />
+            <picture>
+              <source
+                srcSet="/static/879f15ad327fd1658a9a8a173283652d/4c61b/argentina-flag.png 1x,
+/static/879f15ad327fd1658a9a8a173283652d/bff21/argentina-flag.png 1.5x,
+/static/879f15ad327fd1658a9a8a173283652d/8099b/argentina-flag.png 2x"
+              />
+              <img
+                alt=""
+                height={28}
+                loading="lazy"
+                onLoad={[Function]}
+                src="/static/879f15ad327fd1658a9a8a173283652d/4c61b/argentina-flag.png"
+                srcSet="/static/879f15ad327fd1658a9a8a173283652d/4c61b/argentina-flag.png 1x,
+/static/879f15ad327fd1658a9a8a173283652d/bff21/argentina-flag.png 1.5x,
+/static/879f15ad327fd1658a9a8a173283652d/8099b/argentina-flag.png 2x"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "opacity": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "transition": "opacity 500ms",
+                    "width": "100%",
+                  }
+                }
+                width={45}
+              />
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/879f15ad327fd1658a9a8a173283652d/4c61b/argentina-flag.png 1x,
+/static/879f15ad327fd1658a9a8a173283652d/bff21/argentina-flag.png 1.5x,
+/static/879f15ad327fd1658a9a8a173283652d/8099b/argentina-flag.png 2x\\" /><img loading=\\"lazy\\" width=\\"45\\" height=\\"28\\" srcset=\\"/static/879f15ad327fd1658a9a8a173283652d/4c61b/argentina-flag.png 1x,
+/static/879f15ad327fd1658a9a8a173283652d/bff21/argentina-flag.png 1.5x,
+/static/879f15ad327fd1658a9a8a173283652d/8099b/argentina-flag.png 2x\\" src=\\"/static/879f15ad327fd1658a9a8a173283652d/4c61b/argentina-flag.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                }
+              }
+            />
+          </div>
+        </div>
+        <h6
+          className="MuiTypography-root makeStyles-label-109 MuiTypography-subtitle2"
+        >
+          Argentinean
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <div
+        className="makeStyles-container-107"
+      >
+        <div
+          className="makeStyles-iconWrapper-108"
+        >
+          <svg
+            fill="currentColor"
+            height="40px"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#4caf50",
+              }
+            }
+            viewBox="0 0 448 512"
+            width="40px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M448 384c-28.02 0-31.26-32-74.5-32-43.43 0-46.825 32-74.75 32-27.695 0-31.454-32-74.75-32-42.842 0-47.218 32-74.5 32-28.148 0-31.202-32-74.75-32-43.547 0-46.653 32-74.75 32v-80c0-26.5 21.5-48 48-48h16V112h64v144h64V112h64v144h64V112h64v144h16c26.5 0 48 21.5 48 48v80zm0 128H0v-96c43.356 0 46.767-32 74.75-32 27.951 0 31.253 32 74.75 32 42.843 0 47.217-32 74.5-32 28.148 0 31.201 32 74.75 32 43.357 0 46.767-32 74.75-32 27.488 0 31.252 32 74.5 32v96zM96 96c-17.75 0-32-14.25-32-32 0-31 32-23 32-64 12 0 32 29.5 32 56s-14.25 40-32 40zm128 0c-17.75 0-32-14.25-32-32 0-31 32-23 32-64 12 0 32 29.5 32 56s-14.25 40-32 40zm128 0c-17.75 0-32-14.25-32-32 0-31 32-23 32-64 12 0 32 29.5 32 56s-14.25 40-32 40z"
+            />
+          </svg>
+        </div>
+        <h6
+          className="MuiTypography-root makeStyles-label-109 MuiTypography-subtitle2"
+        >
+          31 years and 346 days old
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <div
+        className="makeStyles-container-107"
+      >
+        <div
+          className="makeStyles-iconWrapper-108"
+        >
+          <svg
+            fill="currentColor"
+            height="40px"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#ff9800",
+              }
+            }
+            viewBox="0 0 640 512"
+            width="40px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M480 96H160C71.6 96 0 167.6 0 256s71.6 160 160 160c44.8 0 85.2-18.4 114.2-48h91.5c29 29.6 69.5 48 114.2 48 88.4 0 160-71.6 160-160S568.4 96 480 96zM256 276c0 6.6-5.4 12-12 12h-52v52c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-52H76c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h52v-52c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h52c6.6 0 12 5.4 12 12v40zm184 68c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-80c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z"
+            />
+          </svg>
+        </div>
+        <h6
+          className="MuiTypography-root makeStyles-label-109 MuiTypography-subtitle2"
+        >
+          Open source enthusiastic
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <div
+        className="makeStyles-container-107"
+      >
+        <div
+          className="makeStyles-iconWrapper-108"
+        >
+          <svg
+            fill="currentColor"
+            height="40px"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#673ab7",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="40px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 32C114.52 32 0 146.496 0 288v48a32 32 0 0 0 17.689 28.622l14.383 7.191C34.083 431.903 83.421 480 144 480h24c13.255 0 24-10.745 24-24V280c0-13.255-10.745-24-24-24h-24c-31.342 0-59.671 12.879-80 33.627V288c0-105.869 86.131-192 192-192s192 86.131 192 192v1.627C427.671 268.879 399.342 256 368 256h-24c-13.255 0-24 10.745-24 24v176c0 13.255 10.745 24 24 24h24c60.579 0 109.917-48.098 111.928-108.187l14.382-7.191A32 32 0 0 0 512 336v-48c0-141.479-114.496-256-256-256z"
+            />
+          </svg>
+        </div>
+        <h6
+          className="MuiTypography-root makeStyles-label-109 MuiTypography-subtitle2"
+        >
+          I love listening to music! (and play it too)
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <div
+        className="makeStyles-container-107"
+      >
+        <div
+          className="makeStyles-iconWrapper-108"
+        >
+          <svg
+            fill="currentColor"
+            height="40px"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#CDDC39",
+              }
+            }
+            viewBox="0 0 512 512"
+            width="40px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M352 96c0-53.02-42.98-96-96-96s-96 42.98-96 96 42.98 96 96 96 96-42.98 96-96zM233.59 241.1c-59.33-36.32-155.43-46.3-203.79-49.05C13.55 191.13 0 203.51 0 219.14v222.8c0 14.33 11.59 26.28 26.49 27.05 43.66 2.29 131.99 10.68 193.04 41.43 9.37 4.72 20.48-1.71 20.48-11.87V252.56c-.01-4.67-2.32-8.95-6.42-11.46zm248.61-49.05c-48.35 2.74-144.46 12.73-203.78 49.05-4.1 2.51-6.41 6.96-6.41 11.63v245.79c0 10.19 11.14 16.63 20.54 11.9 61.04-30.72 149.32-39.11 192.97-41.4 14.9-.78 26.49-12.73 26.49-27.06V219.14c-.01-15.63-13.56-28.01-29.81-27.09z"
+            />
+          </svg>
+        </div>
+        <h6
+          className="MuiTypography-root makeStyles-label-109 MuiTypography-subtitle2"
+        >
+          Read ❤️
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6"
+    >
+      <div
+        className="makeStyles-container-107"
+      >
+        <div
+          className="makeStyles-iconWrapper-108"
+        >
+          <svg
+            fill="currentColor"
+            height="40px"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#607d8b",
+              }
+            }
+            viewBox="0 0 640 512"
+            width="40px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M624 448H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM80.55 341.27c6.28 6.84 15.1 10.72 24.33 10.71l130.54-.18a65.62 65.62 0 0 0 29.64-7.12l290.96-147.65c26.74-13.57 50.71-32.94 67.02-58.31 18.31-28.48 20.3-49.09 13.07-63.65-7.21-14.57-24.74-25.27-58.25-27.45-29.85-1.94-59.54 5.92-86.28 19.48l-98.51 49.99-218.7-82.06a17.799 17.799 0 0 0-18-1.11L90.62 67.29c-10.67 5.41-13.25 19.65-5.17 28.53l156.22 98.1-103.21 52.38-72.35-36.47a17.804 17.804 0 0 0-16.07.02L9.91 230.22c-10.44 5.3-13.19 19.12-5.57 28.08l76.21 82.97z"
+            />
+          </svg>
+        </div>
+        <h6
+          className="MuiTypography-root makeStyles-label-109 MuiTypography-subtitle2"
+        >
+          Travel!
+        </h6>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root makeStyles-linkedinContactContainer-2 MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1"
+      >
+        If you want to know more, don't hesitate to contact me:
+      </p>
+      <button
+        className="MuiButtonBase-root MuiIconButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <svg
+            color="#2178B5"
+            fill="currentColor"
+            height={40}
+            size={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "#2178B5",
+              }
+            }
+            viewBox="0 0 448 512"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

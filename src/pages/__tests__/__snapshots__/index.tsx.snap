@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index Page renders correctly 1`] = `
+<div>
+  <div
+    className="makeStyles-container-1"
+  >
+    <h2
+      className="MuiTypography-root makeStyles-sectionTitle-2 MuiTypography-h2"
+      data-testid="title"
+    >
+      Hi!
+    </h2>
+    <hr
+      className="MuiDivider-root"
+      data-testid="divider"
+    />
+    <section
+      className="MuiContainer-root MuiContainer-maxWidthMd"
+    >
+      Description
+    </section>
+  </div>
+  <div
+    className="makeStyles-container-1"
+  >
+    <section
+      className="MuiContainer-root MuiContainer-maxWidthMd"
+    >
+      SkillsSetGrid
+    </section>
+  </div>
+  <div
+    className="makeStyles-container-1"
+  >
+    <h2
+      className="MuiTypography-root makeStyles-sectionTitle-2 MuiTypography-h2"
+      data-testid="title"
+    >
+      Experience
+    </h2>
+    <hr
+      className="MuiDivider-root"
+      data-testid="divider"
+    />
+    <section
+      className="MuiContainer-root MuiContainer-maxWidthMd"
+    >
+      Timeline
+    </section>
+  </div>
+  <div
+    className="makeStyles-container-1"
+  >
+    <h2
+      className="MuiTypography-root makeStyles-sectionTitle-2 MuiTypography-h2"
+      data-testid="title"
+    >
+      More about me
+    </h2>
+    <hr
+      className="MuiDivider-root"
+      data-testid="divider"
+    />
+    <section
+      className="MuiContainer-root MuiContainer-maxWidthMd"
+    >
+      AboutMe
+    </section>
+  </div>
+</div>
+`;

@@ -27,11 +27,11 @@ const Section = (props: SectionProps) => {
   return (
     <div className={classes.container}>
       {title &&
-        <Typography variant="h2" className={classes.sectionTitle}>
+        <Typography variant="h2" className={classes.sectionTitle} data-testid="title">
           {title}
         </Typography>
       }
-      {divider && <Divider />}
+      {divider && <Divider data-testid="divider" />}
       <Container component="section" maxWidth="md">
         {children}
       </Container>

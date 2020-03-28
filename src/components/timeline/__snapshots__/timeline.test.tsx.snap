@@ -1,0 +1,663 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timeline render normally with 3 jobs 1`] = `
+<div
+  className="makeStyles-timelineContainer-1"
+>
+  <div
+    className="MuiPaper-root MuiStepper-root MuiStepper-vertical MuiPaper-elevation0"
+  >
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2014 Jan
+                   - 
+                  2015 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiStepConnector-root MuiStepConnector-vertical MuiStepConnector-completed"
+    >
+      <span
+        className="MuiStepConnector-line MuiStepConnector-lineVertical"
+      />
+    </div>
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2015 Jan
+                   - 
+                  2016 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company 2
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title 2
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description 2
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiStepConnector-root MuiStepConnector-vertical MuiStepConnector-completed"
+    >
+      <span
+        className="MuiStepConnector-line MuiStepConnector-lineVertical"
+      />
+    </div>
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2017 Jan
+                   - 
+                  2018 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company 3
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title 3
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description 3
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary Mui-disabled Mui-disabled"
+    data-testid="show-more-button"
+    disabled={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={-1}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      That's all folks! 🐷
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Timeline render normally with more than 3 jobs 1`] = `
+<div
+  className="makeStyles-timelineContainer-1"
+>
+  <div
+    className="MuiPaper-root MuiStepper-root MuiStepper-vertical MuiPaper-elevation0"
+  >
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2014 Jan
+                   - 
+                  2015 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiStepConnector-root MuiStepConnector-vertical MuiStepConnector-completed"
+    >
+      <span
+        className="MuiStepConnector-line MuiStepConnector-lineVertical"
+      />
+    </div>
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2015 Jan
+                   - 
+                  2016 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company 2
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title 2
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description 2
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiStepConnector-root MuiStepConnector-vertical MuiStepConnector-completed"
+    >
+      <span
+        className="MuiStepConnector-line MuiStepConnector-lineVertical"
+      />
+    </div>
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2017 Jan
+                   - 
+                  2018 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company 3
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title 3
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description 3
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+    data-testid="show-more-button"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Show More!
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Timeline render normally with more than 3 jobs 2`] = `
+<div
+  className="makeStyles-timelineContainer-1"
+>
+  <div
+    className="MuiPaper-root MuiStepper-root MuiStepper-vertical MuiPaper-elevation0"
+  >
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2014 Jan
+                   - 
+                  2015 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiStepConnector-root MuiStepConnector-vertical MuiStepConnector-completed"
+    >
+      <span
+        className="MuiStepConnector-line MuiStepConnector-lineVertical"
+      />
+    </div>
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2015 Jan
+                   - 
+                  2016 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company 2
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title 2
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description 2
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiStepConnector-root MuiStepConnector-vertical MuiStepConnector-completed"
+    >
+      <span
+        className="MuiStepConnector-line MuiStepConnector-lineVertical"
+      />
+    </div>
+    <div>
+      <div
+        className="MuiStep-root"
+        data-testid="job-description"
+      >
+        <span
+          className="MuiStepLabel-root MuiStepLabel-horizontal"
+        >
+          <span
+            className="MuiStepLabel-labelContainer"
+          >
+            <span
+              className="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+            >
+              <div>
+                <span
+                  className="MuiTypography-root MuiTypography-caption"
+                  data-testid="dates"
+                >
+                  2017 Jan
+                   - 
+                  2018 Jan
+                </span>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle1"
+                >
+                  Test company 3
+                </h6>
+                <h6
+                  className="MuiTypography-root MuiTypography-subtitle2"
+                >
+                  Test job title 3
+                </h6>
+              </div>
+            </span>
+          </span>
+        </span>
+        <div
+          active={false}
+          className="makeStyles-stepContent-2"
+          completed={false}
+          disabled={false}
+          expanded={false}
+          icon={NaN}
+        >
+          <p
+            className="MuiTypography-root makeStyles-jobDescription-3 MuiTypography-body1"
+          >
+            Job test description 3
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+    data-testid="show-more-button"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Show More!
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Timeline render normally without jobs 1`] = `
+<div
+  className="makeStyles-timelineContainer-1"
+>
+  <div
+    className="MuiPaper-root MuiStepper-root MuiStepper-vertical MuiPaper-elevation0"
+  />
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary Mui-disabled Mui-disabled"
+    data-testid="show-more-button"
+    disabled={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={-1}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      That's all folks! 🐷
+    </span>
+  </button>
+</div>
+`;

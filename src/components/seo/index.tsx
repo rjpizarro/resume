@@ -30,6 +30,7 @@ function SEO({ description, lang, meta, title }: SEOProps) {
     <Helmet
       htmlAttributes={{
         lang,
+        'data-testid': "html-root"
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}

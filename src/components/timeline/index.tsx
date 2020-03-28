@@ -28,6 +28,13 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
   },
+  stepContent: {
+    marginTop: 8,
+    borderLeft: '1px solid #bdbdbd',
+    marginLeft: 12,
+    paddingLeft: 20,
+    paddingRight: 8,
+  },
   jobDescription: {
     fontSize: 15,
     color: "#5d5d5d"
@@ -46,7 +53,7 @@ const Timeline = (props: TimelineProps) => {
       <Stepper orientation="vertical" activeStep={jobsCount}>
         {jobs.filter((data, idx) => idx <= jobsDisplayed).map((job, i) => (
           <Fade in key={job.id}>
-            <Step>
+            <Step data-testid="job-description">
               <StepLabel>
                 <TimelineLabel
                   company={job.company}
@@ -55,11 +62,11 @@ const Timeline = (props: TimelineProps) => {
                   jobTitle={job.jobTitle}
                 />
               </StepLabel>
-              <StepContent expanded>
+              <div className={classes.stepContent}>
                 <Typography className={classes.jobDescription}>
                   {job.description}
                 </Typography>
-              </StepContent>
+              </div>
             </Step>
           </Fade>
         ))}
@@ -69,6 +76,7 @@ const Timeline = (props: TimelineProps) => {
         onClick={() => changeJobsDisplayed(jobsDisplayed + 3)}
         variant="outlined"
         color="primary"
+        data-testid="show-more-button"
       >
         {allJobsDisplayed ? "That's all folks! 🐷" : "Show More!"}
       </Button>

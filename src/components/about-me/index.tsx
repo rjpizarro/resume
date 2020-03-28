@@ -31,7 +31,7 @@ const useStyles = makeStyles({
   }
 })
 
-const getExactYearsOld = () => {
+export const getExactYearsOld = () => {
   const currentYear = new Date().getFullYear()
   const today = new Date()
   const birthday = new Date("1988/04/13")

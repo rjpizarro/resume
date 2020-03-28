@@ -16,8 +16,7 @@ const styles ={
   },
 }
 
-const Header = ({ siteTitle }: HeaderProps) => {
-
+const AppHeader = ({ siteTitle }: HeaderProps) => {
   return (
     <header
       style={{
@@ -48,8 +47,8 @@ const Header = ({ siteTitle }: HeaderProps) => {
   )
 }
 
-Header.defaultProps = {
+AppHeader.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default AppHeader

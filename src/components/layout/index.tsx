@@ -1,13 +1,13 @@
 import React from "react"
-import ThemeProvider from "@material-ui/core/styles/MuiThemeProvider"
+import { ThemeProvider } from '@material-ui/core/styles';
 import Typography from "@material-ui/core/Typography"
 import { useStaticQuery, graphql } from "gatsby"
 import { FaGithub } from 'react-icons/fa'
 import IconButton from "@material-ui/core/IconButton"
-import "typeface-inter"
-import "typeface-roboto"
+import "typeface-inter/inter.css"
+import "typeface-roboto/index.css"
 
-import Header from "../header"
+import AppHeader from "../app-header"
 import theme from "../../theme"
 import "./styles.css"
 
@@ -60,7 +60,7 @@ const Index = ({ children }: LayoutProps) => {
   return (
     <ThemeProvider theme={theme}>
       <div style={styles.container}>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <AppHeader siteTitle={data.site.siteMetadata.title} />
         <div style={styles.contentWrapper}>
           <main>{children}</main>
           <footer style={styles.footer}>
@@ -84,7 +84,7 @@ const Index = ({ children }: LayoutProps) => {
         >
           <path
             fill="#00cba9"
-            fill-opacity="1"
+            fillOpacity="1"
             d="
              M 0,32
              L 48,42.7

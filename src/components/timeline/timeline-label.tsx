@@ -12,7 +12,7 @@ interface TimelineLabelProps {
 const TimelineLabel = (props: TimelineLabelProps) => {
   return (
     <div>
-      <Typography variant="caption">{format(props.startDate, "yyyy MMM")} - {format(props.endDate, "yyyy MMM")}</Typography>
+      <Typography variant="caption" data-testid="dates">{format(props.startDate, "yyyy MMM")} - {format(props.endDate, "yyyy MMM")}</Typography>
       <Typography variant="subtitle1">{props.company}</Typography>
       <Typography variant="subtitle2">{props.jobTitle}</Typography>
     </div>

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description renders normally 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-8"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-8"
+  >
+    <p
+      className="MuiTypography-root makeStyles-description-1 MuiTypography-body1"
+    >
+      Although I studied a B.A in Social Communication, I have always been a techie. That led me, around 10 years ago, to start a blog. I never thought that I was about to find a career also.
+    </p>
+    <p
+      className="MuiTypography-root makeStyles-description-1 MuiTypography-body1"
+    >
+      Early on I found that I was able to edit the page's HTML and CSS. Very soon, like an owl, I was up all night learning and editing every line of code from my site.
+    </p>
+    <p
+      className="MuiTypography-root makeStyles-description-1 MuiTypography-body1"
+    >
+      The years went by and I had the chance to learn and work with other tools:
+    </p>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-lg-4"
+  >
+    <a
+      href="https://charat.me/"
+    >
+      <AvatarImage />
+    </a>
+  </div>
+</div>
+`;

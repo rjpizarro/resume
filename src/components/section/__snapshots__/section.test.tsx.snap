@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section add a Divider component when receive a divider prop 1`] = `
+<hr
+  class="MuiDivider-root"
+  data-testid="divider"
+/>
+`;
+
+exports[`Section render normally with required props 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <section
+    className="MuiContainer-root MuiContainer-maxWidthMd"
+  >
+    <div>
+      <span>
+        section
+      </span>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Section render normally with title and divider props 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <h2
+    className="MuiTypography-root makeStyles-sectionTitle-2 MuiTypography-h2"
+    data-testid="title"
+  >
+    Section Title
+  </h2>
+  <hr
+    className="MuiDivider-root"
+    data-testid="divider"
+  />
+  <section
+    className="MuiContainer-root MuiContainer-maxWidthMd"
+  >
+    <div>
+      <span>
+        section
+      </span>
+    </div>
+  </section>
+</div>
+`;
